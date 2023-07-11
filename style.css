@@ -116,11 +116,28 @@
     padding-top: 70px;
 }
 
-
 .card-text{
     padding-top: 20px;
     font-size: 20px;
     text-align: center;
+}
+/* hot deal section  */
+
+
+.hot-deal{
+    height: 400px;
+    background-color:rgba(229, 84, 115, 0.05) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.deal-image{
+    width: 220px;
+    padding-left: 18px;
+}
+
+.primary-text{
+    color: #E55473
 }
 .btn{
     background-color: #E55473;
@@ -128,4 +145,8 @@
     color: white;
     border-color:#E55473;
     border-radius: 8px;
+}
+.btn-signup{
+    display: flex;
+    justify-content: center;
 }
