@@ -41,7 +41,7 @@
     align-items: center;
 }
 .our-main-text{ /*.our-flower-text*/
-    padding-top: 120px;
+    padding-top: 60px;
 }
 
 .text-heading{
@@ -143,10 +143,68 @@
     justify-content: center;
     align-items: center;
     gap:10px;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 .media-card{
     width: 250px;
+}
+
+/* subscription section  */
+.subscribe{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription{
+    height: 380px;
+    width: 1300px;
+    background-image: url('img/Rectangle\ 9.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.imput-section{
+    padding-bottom: 80px;
+}
+.inpur-email{
+    width:460px;
+    padding: 12px 8px;
+    border: 1px solid #E55473;
+    border-radius: 5px;
+}
+/* this is footer section */
+.footer_container{
+    width: 100%;
+    height: 250px;
+    background-color: #272727;
+}
+.footer-text{
+
+}
+.paragraph-3{
+    width: 550px;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(190, 190, 190);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 25px;
+}
+
+.footer-heading{
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .primary-text{
