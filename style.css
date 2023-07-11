@@ -1,26 +1,101 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* heading banner section  */
 .heading-banner-section{
     width: 100%px;
-    /* flex-shrink: 0; */
-    height: 600px;
+    height: 100vh;
     display: flex;
     justify-content:space-evenly;
     background-color: rgba(229, 84, 115, 0.1);
-    border: 5px solid black;
+    /* border: 5px solid black; */
     align-items: center;
-    padding: 0px 120px;
+    padding: 0px 180px;
 }
-
-
+.banner-text{
+    padding-right: 120px;
+}
+.banner-heading{
+    font-size: 45px;
+    color:#272727;
+}
+.paragraph{
+    font-size: 15px;
+    color: rgb(119, 116, 116);
+    margin-bottom: 30px;
+}
 .banner-image{
-    width: 400px;
-    height: 550px;
+    width: 450px;
+    height: 600px;
     flex-shrink: 0;
     align-content: flex-end;
-    padding-top: 55px;
+    padding-top: 70px;
+}
+/* our flower section */
+.our-flower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our-flower-text{
+    padding-top: 120px;
+}
+
+.text-heading{
+    color:#272727;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paragraph-2{
+    width: 550px;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(119, 116, 116);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 25px;
+
+}
+/* our flower card section  */
+.our-flower-contents{
+    padding: 0px 60px;
+}
+.round-cards{
+    gap:5px;
+}
+.simple-card{
+    
+}
+.round-card{
+    width: 300px;
+    height: 400px;
+    background-color:rgba(167, 33, 98, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 232px 232px 0px 0px;
+}
+.our-flower-image{
+    width: 220px;
+    padding-top: 97px;
+}
+.card-text{
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.btn{
+    background-color: #E55473;
+    padding: 12px 30px;
+    color: white;
+    border-color:#E55473;
+    border-radius: 8px;
 }
