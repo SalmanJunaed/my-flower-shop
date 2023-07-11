@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* heading banner section  */
+.heading-banner-section{
+    width: 100%px;
+    /* flex-shrink: 0; */
+    height: 600px;
+    display: flex;
+    justify-content:space-evenly;
+    background-color: rgba(229, 84, 115, 0.1);
+    border: 5px solid black;
+    align-items: center;
+    padding: 0px 120px;
+}
+
+
+.banner-image{
+    width: 400px;
+    height: 550px;
+    flex-shrink: 0;
+    align-content: flex-end;
+    padding-top: 55px;
+}
