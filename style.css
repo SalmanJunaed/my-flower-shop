@@ -9,10 +9,10 @@
     width: 100%px;
     height: 100vh;
     display: flex;
+    align-items: center;
     justify-content:space-evenly;
     background-color: rgba(229, 84, 115, 0.1);
     /* border: 5px solid black; */
-    align-items: center;
     padding: 0px 180px;
 }
 .banner-text{
@@ -143,8 +143,8 @@
     text-align: center;
 }
 .my-icon{
-    height:60;
-    width: 60;
+    height:50;
+    width: 50;
 }
 
 /* hot deal section  */
