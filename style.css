@@ -66,13 +66,17 @@
 }
 /* our flower card section  */
 .our-flower-contents{
-    padding: 0px 60px;
+    padding: 0px 10%;
 }
 .round-cards{
-    gap:5px;
+    gap:25px;
+    display: flex;
+    justify-content: center;
 }
 .simple-card{
-    
+    width: 300px;
+    height: 400px;
+    padding-bottom: 160px;
 }
 .round-card{
     width: 300px;
@@ -83,10 +87,36 @@
     align-items: center;
     border-radius: 232px 232px 0px 0px;
 }
+
+.round-card2{
+    width: 300px;
+    height: 400px;
+    background-color:rgba(7, 151, 158, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 232px 232px 0px 0px;
+}
+.round-card3{
+    width: 300px;
+    height: 400px;
+    background-color:rgba(71, 125, 17, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 232px 232px 0px 0px;
+}
+
 .our-flower-image{
     width: 220px;
     padding-top: 97px;
 }
+.our-flower-image2{
+    width: 220px;
+    padding-top: 70px;
+}
+
+
 .card-text{
     padding-top: 20px;
     font-size: 20px;
