@@ -29,7 +29,7 @@
 }
 .banner-image{
     width: 450px;
-    height: 600px;
+    height: 580px;
     flex-shrink: 0;
     align-content: flex-end;
     padding-top: 70px;
@@ -121,9 +121,33 @@
     font-size: 20px;
     text-align: center;
 }
+
+/* Optional serviece section  */
+.our-service{
+    padding: 0 10%;
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-block{
+    background-color: rgba(39, 39, 39, 0.05);
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:60px 0px;
+    gap: 60px;
+}
+.single-block{
+    text-align: center;
+}
+.my-icon{
+    height:60;
+    width: 60;
+}
+
 /* hot deal section  */
-
-
 .hot-deal{
     height: 400px;
     background-color:rgba(229, 84, 115, 0.05) ;
@@ -212,6 +236,7 @@
     color: rgba(255, 255, 255, 0.40);
 }
 
+/* common content for reuse  */
 .primary-text{
     color: #E55473
 }
